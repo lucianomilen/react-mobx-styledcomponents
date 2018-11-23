@@ -5,7 +5,7 @@ import { Route } from "mobx-router";
 
 //containers
 import LoginContainer from "./login/containers/LoginContainer";
-import PostContainer from "./success/containers/PostContainer";
+import PostContainer from "./list/containers/PostContainer";
 
 const views = {
   login: new Route({
